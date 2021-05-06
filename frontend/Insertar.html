@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+	<title>Desarrollo Web | Servicios</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="Diseño y Desarrollo Web">
+	<meta name="keywords" content="Diseño Web, Desarrollo Web">
+	<meta name="author" content="Dolmix">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<script src="script.js"></script>
+</head>
+<body onload='get_dpi1()'>
+	<header>
+		<div class="contenedor">
+			<div id="marca">
+				<h1><span class="resaltado">Desarrollo</span>Web</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="Menu.html">Menu Principal</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section id="main">
+		<div class="contenedor">
+			<article id="main-col">
+				<h1>Listado de transferencias por Institucion</h1>
+				<br>
+				<select name="select_dpi1" id="select_dpi1"class="form-select" aria-label="Default select example"></select>
+				<br><br>
+				<select name="select_dpi2" id="select_dpi2"class="form-select" aria-label="Default select example"> </select>
+				<br><br>
+				<input type="number" name="monto" id="monto_txt" placeholder="Ingrese la cantidad a depositar"> 
+				
+				
+				<input type="button" value="Transaccion" onclick="transaccion()">
+				
+			</article>
+		</div>
+	</section>
+	
+	<footer>
+		<p>Dolmix Desarrollo Web, Copyright &copy; 2018</p>
+	</footer>
+</body>
+</html>
